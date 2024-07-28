@@ -1,0 +1,37 @@
+*{
+    margin: 3% 4% 3% 4%;
+    font-family: sans-serif;
+}
+
+header ul li{
+    padding-left: 10%;
+    padding: 0 15px;
+}
+
+.duke {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        max-width: 1200px;
+
+    }
+}
+
+a{
+    text-decoration: none;
+}
